@@ -2,7 +2,7 @@ import React from "react";
 import "./Header.css";
 import SearchIcon from "@mui/icons-material/Search";
 import LoactionOnOutlinedIcon from "@mui/icons-material/LocationOnOutlined";
-import DeleteIcon from "@mui/icons-material/Delete";
+
 import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
 import { Link } from "react-router-dom";
 
