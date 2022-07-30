@@ -1,8 +1,9 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Products.css";
 import ShoppingCartOutlinedIcon from "@mui/icons-material/ShopOutlined";
 
-function Products({ id, title, image, price, specification, rating, details }) {
+function Products({ id, title, image, price, specification, rating, detail}) {
   return (
     <div className="product">
       <div className="info">
@@ -20,14 +21,15 @@ function Products({ id, title, image, price, specification, rating, details }) {
               <p key={index}>⭐</p>
             ))}
         </div>
-        <img src={img} />
+        </div>
+        <img src={image} />
         <button>
           <i>
             <ShoppingCartOutlinedIcon />
           </i>
           Add To Basket
         </button>
-      </div>
+      
     </div>
   );
 }
